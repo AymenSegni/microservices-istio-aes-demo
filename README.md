@@ -11,8 +11,8 @@ Online Boutique consists of a 10-tier microservices application. The application
 web-based e-commerce app where users can browse items,
 add them to the cart, and purchase them.
 
-**The Demo Application source code is provided by the Google Cloud team, and I will it to demonstrate technologies like
-Kubernetes/GKE, Istio, Ambassador Edge Stack,..**. This application
+The Demo Application source code is provided by the Google Cloud team, and I will it to demonstrate technologies like
+Kubernetes/GKE, Istio, Ambassador Edge Stack,... This application
 works on any Kubernetes cluster (such as a local one), as well as Google
 Kubernetes Engine. It’s **easy to deploy with little to no configuration**.
 
