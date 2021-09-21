@@ -18,15 +18,15 @@ google-api-core[grpc]==1.6.0
     #   opencensus
 google-api-python-client==1.7.8
     # via google-cloud-profiler
-google-auth-httplib2==0.0.3
-    # via
-    #   google-api-python-client
-    #   google-cloud-profiler
 google-auth==1.6.2
     # via
     #   google-api-core
     #   google-api-python-client
     #   google-auth-httplib2
+    #   google-cloud-profiler
+google-auth-httplib2==0.0.3
+    # via
+    #   google-api-python-client
     #   google-cloud-profiler
 google-cloud-core==0.29.1
     # via google-cloud-trace
@@ -36,13 +36,13 @@ google-cloud-trace==0.20.2
     # via opencensus
 googleapis-common-protos==1.5.5
     # via google-api-core
-grpcio-health-checking==1.12.1
-    # via -r requirements.in
 grpcio==1.16.1
     # via
     #   -r requirements.in
     #   google-api-core
     #   grpcio-health-checking
+grpcio-health-checking==1.12.1
+    # via -r requirements.in
 httplib2==0.19.0
     # via
     #   google-api-python-client
@@ -61,12 +61,12 @@ protobuf==3.6.1
     #   google-cloud-profiler
     #   googleapis-common-protos
     #   grpcio-health-checking
-pyasn1-modules==0.2.3
-    # via google-auth
 pyasn1==0.4.5
     # via
     #   pyasn1-modules
     #   rsa
+pyasn1-modules==0.2.3
+    # via google-auth
 pyparsing==2.4.7
     # via httplib2
 python-json-logger==0.1.9
@@ -77,7 +77,7 @@ requests==2.21.0
     # via
     #   google-api-core
     #   google-cloud-profiler
-rsa==4.0
+rsa==4.7
     # via google-auth
 six==1.12.0
     # via
