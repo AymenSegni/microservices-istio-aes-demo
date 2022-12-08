@@ -6,7 +6,7 @@
 #
 cachetools==3.0.0
     # via google-auth
-certifi==2018.11.29
+certifi==2022.12.7
     # via requests
 chardet==3.0.4
     # via requests
